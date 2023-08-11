@@ -26,6 +26,7 @@ section#hero {
 }
 
 .head-container {
+    
     height: 60px;
     padding: 10px 70px;
     background-color: var(--header-color);
@@ -47,15 +48,35 @@ section#hero {
 
 .head-container:hover {
     height: 400px;
-    transition: .5s;
+    transition: .3s;
+}
+
+.head-container:hover .js-reference {
+    display: flex;
+    flex-direction: column;
+    padding-left: 106px;
+    padding-top: 30px;
+    
+}
+
+.head-container:hover .js-reference a {
+    text-decoration: none;
+    color: var(--logo-color);
+    font-size: 30px;
 }
 
 .js-reference {
-    display: flex;
-    flex-direction: column;
-    
+    position: absolute;
+    display: none;
     left: 0;
+    font-size: 18px;
     
+}
+
+.js-reference p {
+    font-size: 17px;
+    margin: 0;
+    padding: 10px 0;
 }
 
 

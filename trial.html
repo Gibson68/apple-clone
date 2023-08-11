@@ -9,7 +9,7 @@
     .dropbtn {
         background-color: blueviolet;
         color: white;
-        padding: 10px;
+        padding: 16px;
         font-size: 10px;
         border: none;
         cursor: pointer;
@@ -23,24 +23,18 @@
     .dropdown-content {
         display: none;
         position: absolute;
+        left: 0;
         right: 0;
         background-color: pink;
         min-width: 300px;
+        z-index: 100;
     }
 
-    .dropdown-content a {
-        color: black;
-        padding: 12px 16px;
-        text-decoration: none;
-        display: flex;
-    }
+    
 
-    .dropdown-content a:hover {
-        background-color: red;
-        
-    }
+    
 
-    .dropdown:hover {
+    .dropdown:hover .dropdown-content{
         display: block;
     }
 
@@ -49,12 +43,12 @@
     }
 </style>
 <body>
-    <div class="dropdown" style="float: left;">
+    <div class="dropdown">
     <button class="dropbtn">
         left
     </button>
 
-    <div class="dropdown-content" style="left: 0">
+    <div class="dropdown-content">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
              Suscipit, recusandae.</p>
     </div>
