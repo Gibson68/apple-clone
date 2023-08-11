@@ -1,0 +1,448 @@
+:root {
+    --header-color: #ebebeef5;
+    --body-color:#f5f5f7;
+    --logo-color:#323232;
+    --menu-color:#636364;
+    --h1-color:#636364;
+    --p-color:#474749;
+    --link-color:#3585d5;
+    --font-roboto:'Roboto', sans-serif;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+section#hero {
+    margin: 0;
+    padding: 40px 0;
+    height: 120vh;
+    background-color:#fefefe;
+    font-family: var(--font-roboto);
+}
+
+.head-container {
+    height: 60px;
+    padding: 10px 70px;
+    background-color: var(--header-color);
+    /* display: flex; */
+    padding-top: 22.5px;
+    position: fixed;
+    top: 0px;
+    transition: 0.5s;
+}
+
+.head-container h1 {
+    margin: 0;
+}
+
+.head-container .menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.head-container:hover {
+    height: 400px;
+    transition: .5s;
+}
+
+.js-reference {
+    display: flex;
+    flex-direction: column;
+    
+    left: 0;
+    
+}
+
+
+
+.head-container .menu-item {
+    max-width: 679px;
+    padding: 0px 30.93px;
+    text-decoration: none;
+    color: var(--menu-color);
+    text-transform: capitalize;
+}
+
+.head-container .menu-item a {
+    text-decoration: none;
+    color: var(--menu-color);
+}
+
+.head-container .menu-item a i.bi.bi-apple {
+    font-size: 20px;
+}
+
+.body .latest-product {
+    text-align: center;
+}
+
+.body .latest-product h1 {
+    margin: 0;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 60px;
+}
+
+.body .latest-product p {
+    margin: 0;
+    padding: 10px 0;
+    font-size: 26px;
+}
+
+.body .latest-product .links a {
+    text-decoration: none;
+    color: var(--link-color);
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+.images img {
+    width: 650px;
+}
+
+section#shop {
+    height: 100vh;
+
+}
+
+#shop .light-header {
+    height: 15px;
+    background-color: var(--header-color);
+}
+
+#shop .shop-text {
+    font-family: var(--font-roboto);
+    text-align: center;
+}
+
+ .shop-text h2 {
+    margin-bottom: 0;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.shop-text p {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.shop-text a {
+    color: var(--link-color);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+i.bi.bi-chevron-right {
+    font-size: 15px;
+}
+
+.images-flex {
+    text-align: center;
+    padding: 40px;
+}
+
+
+.images-flex img {
+    width: 250px;
+    
+}
+
+section#iphone {
+    height: 85vh;
+    background-color:#000000;
+}
+
+.iphone-text {
+    color: #ffff;
+    font-family: var(--font-roboto);
+    text-align: center;
+}
+
+.iphone-text h2 {
+    margin: 0;
+    padding-top: 40px;
+    font-size: 40px;
+}
+
+.iphone-text p {
+    margin: 0;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.iphone-text img {
+    width: 430px;
+    padding-top: 70px;
+}
+
+section#flex-table {
+    height: 165vh;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ .flex .iphone {
+    background-color: var(--header-color);
+    margin: 10px;
+    height: 500px;
+    width: 730px;
+    font-family: var(--font-roboto);
+    text-align: center;
+}
+
+.flex .iphone h3 {
+    margin: 0;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.flex .iphone p {
+    margin: 0;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.flex .iphone img {
+    margin-top: 30px;
+    width: 196px;
+}
+
+.flex .iphone .links a {
+    text-decoration: none;
+    color: var(--link-color);
+}
+
+.flex-2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flex-2 .apple2 {
+    background-color: #000;
+    height: 500px;
+    margin: 20px;
+    width: 730px;
+    color: #fff;
+    font-family: var(--font-roboto);
+    text-align: center;
+    
+    
+
+}
+
+.flex-2 .apple2 h3 {
+    margin-bottom: 0;
+    font-size: 39px;
+}
+
+i.bi.bi-apple {
+    font-size: 32px;
+    position: relative;
+    top: -4px;
+}
+
+.flex-2 .apple2 p {
+    margin: 0;
+    font-size: 13px;
+    color: #b01c21;
+}
+
+.flex-2 .apple2 p.second {
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.flex-2 .apple2 .dual-link a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+.apple2 img {
+    padding-top: 63px;
+}
+
+.apple2 p img {
+    padding: 0;
+    width: 70px;
+    position: relative;
+    top: 13px;
+    left: -2px;
+    
+}
+
+.apple2 .class img {
+    padding-top: 97px;
+}
+
+section#flex-3 {
+    display: flex;
+}
+
+#flex-3 .apple3 {
+    background-color: var(--header-color);
+    margin: 10px;
+    height: 500px;
+    width: 730px;
+    font-family: var(--font-roboto);
+    text-align: center;
+}
+
+.apple3 h3 {
+    font-size: 35px;
+    margin-bottom: 0;
+}
+
+.apple3 p {
+    margin: 0;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.apple3 {
+    padding-top: 10px;
+}
+
+.apple3 .link {
+    padding-top: 10px;
+}
+
+.apple3 a {
+    text-decoration: none;
+    color: var(--link-color);
+    
+}
+
+#flex-3 .class2 {
+    padding-top: 90px;
+}
+
+#flex-3 .class2 img {
+    width: 100px;
+}
+
+i.bi.bi-arrow-left-right {
+    font-size: 30px;
+    position: relative;
+    top: -50px;
+    padding: 0px 50px;
+}
+
+.apple3 img {
+    width: 300px;
+}
+
+.apple3 .image-correct {
+    margin-top: 67px;
+}
+
+section#footer {
+    height: 165vh;
+    background-color: var(--header-color);
+}
+
+section#footer .footer-space {
+    padding: 20px 13%;
+    font-family: var(--font-roboto);
+    /* max-width: 1440px; */
+    height: 500px;
+    /* text-align: center; */
+}
+
+section#footer .footer-space p.text1 {
+    font-size: 12px;
+    
+}
+
+section#footer .footer-space p.text1 a {
+    color: var(--link-color);
+}
+
+section#footer .footer-space p.text1 .line {
+    margin-top: 40px;
+    border: 0.5px solid var(--p-color);
+    border-radius: 10px;
+    display: flex;
+}
+
+section#footer .footer-space  .item-space {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+}
+
+section#footer .footer-space  .item-space .item1 {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+section#footer .footer-space  .item-space .item1 h4 {
+    font-size: 16px;
+}
+
+section#footer .footer-space  .item-space .item1 a {
+    text-decoration: none;
+    padding: 5px 0;
+    color: var(--p-color);
+    font-size: 13px;
+}
+
+section#footer .footer-space  .item-space .item1 a:hover {
+    text-decoration: underline;
+}
+
+.footer-space .medias {
+    margin: 0;
+    padding: 0;
+    margin-top: 100px;
+    font-size: 12px;
+}
+
+section#footer .footer-space .text1 .line2 {
+    margin-top: 0;
+    border: 0.5px solid var(--p-color);
+    border-radius: 10px;
+    display: flex;
+    
+}
+
+.footer-space .medias p a {
+    color: var(--link-color);
+}
+
+.footer-space  p.copyright {
+    font-size: 12px;
+}
+
+.footer-space .foot-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-space .foot-flex a {
+    font-size: 12px;
+    color: var(--p-color);
+    text-decoration: none;
+}
+
+.footer-space .foot-flex a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
